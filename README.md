@@ -1,4 +1,4 @@
-# 📿 Ziqir - Islamic Prayer Counter PWA
+# 📿 Ziqir - Islamic Prayer Counter
 
 A lightweight, offline-capable Progressive Web App (PWA) for counting Islamic prayers (Zikir). Track your daily devotion with an intuitive counter and daily history log.
 
@@ -114,44 +114,6 @@ The app is automatically deployed to GitHub Pages. Any push to the `main` branch
 https://rastthack.github.io/ziqir/
 ```
 
-### Deploy to Other Hosting
-
-1. **Vercel** - Connect your GitHub repo, it auto-deploys
-2. **Netlify** - Drag & drop the folder or connect GitHub
-3. **Firebase** - Use Firebase CLI for quick deployment
-
-## Customization
-
-### Change App Name
-Edit `manifest.json`:
-```json
-{
-  "name": "Your App Name",
-  "short_name": "Short Name"
-}
-```
-
-### Change Colors
-Edit `manifest.json` and `style.css`:
-```json
-{
-  "background_color": "#your-color",
-  "theme_color": "#your-color"
-}
-```
-
-### Add Icons
-Replace icons in the `icons/` folder:
-- `icon-192.png` - 192x192 pixels
-- `icon-512.png` - 512x512 pixels
-
-## Performance Metrics
-
-- ⚡ **First Load**: < 1 second
-- 📦 **Bundle Size**: < 50 KB (uncompressed)
-- 🔋 **Offline**: 100% functional
-- 🎯 **Lighthouse Score**: 95+
-
 ## Privacy
 
 ✅ No tracking  
@@ -163,10 +125,5 @@ Replace icons in the `icons/` folder:
 
 This project is open source. Feel free to fork, modify, and use it.
 
-## Support & Feedback
-
-Found a bug or have a feature request? Open an issue on [GitHub](https://github.com/rastthack/ziqir/issues).
-
----
 
 **Made with ❤️ for daily devotion and mindful prayer tracking**
