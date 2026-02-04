@@ -4,13 +4,11 @@ A lightweight, offline-capable Progressive Web App (PWA) for counting Islamic pr
 
 ## Features
 
-✨ **Offline First** - Works completely offline with service worker support  
-📱 **Installable** - Install as a native app on your phone or desktop  
+✨ **Offline First** - Works completely offline with service worker support   
 📊 **Daily History** - Track your prayer counts throughout the day  
 ⚡ **Fast & Lightweight** - Minimal dependencies, lightning-fast performance  
 🎯 **Flexible Counting** - Count by +1, +2, +5, or +10 increments  
-🔄 **Persistent Data** - Your history is saved locally and persists across sessions  
-🎨 **Beautiful UI** - Clean, modern design optimized for all screen sizes  
+
 
 ## Live Demo
 
