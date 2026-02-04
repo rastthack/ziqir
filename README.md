@@ -16,39 +16,12 @@ A lightweight, offline-capable Progressive Web App (PWA) for counting Islamic pr
 
 Visit the app: [https://rastthack.github.io/ziqir/](https://rastthack.github.io/ziqir/)
 
-## Installation
-
-### For Users
-
-1. Visit [https://rastthack.github.io/ziqir/](https://rastthack.github.io/ziqir/)
-2. Look for the **"Install"** button in your browser address bar
-3. Click **"Install"** to add Ziqir to your home screen
-4. Use it like a native app, even offline!
+Visit the app: [https://ziqir.netlify.app/]
 
 **Browser Support:**
 - ✅ Chrome/Edge (Android & Desktop)
 - ✅ Safari (iOS 16.4+)
 - ✅ Firefox (Desktop)
-
-### For Developers
-
-```bash
-# Clone the repository
-git clone https://github.com/rastthack/ziqir.git
-cd ziqir
-
-# Serve locally (using any local server)
-# Option 1: Python
-python3 -m http.server 8000
-
-# Option 2: Node.js with http-server
-npx http-server
-
-# Option 3: Node.js with Live Server
-npx live-server
-```
-
-Then open `http://localhost:8000` in your browser.
 
 ## Usage
 
