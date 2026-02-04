@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ziqir</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📿 Ziqir</h1>
+
+    <p id="message">You have read 0 times</p>
+
+    <div class="counter">0</div>
+
+    <select id="step">
+      <option value="1">+1</option>
+      <option value="2">+2</option>
+      <option value="5">+5</option>
+      <option value="10">+10</option>
+    </select>
+
+   <div class="buttons">
+  <button id="increase" class="icon-btn">
+    <img src="icons/increase.png" alt="Increase Zikir">
+  </button>
+
+  <button id="decrease" class="icon-btn">
+    <img src="icons/decrease.png" alt="Decrease Zikir">
+  </button>
+
+  <button id="reset" class="reset-btn">Reset</button>
+</div>
+
+
+    <h2>📅 Daily History</h2>
+    <ul id="history"></ul>
+  </div>
+
+<script src="app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  padding: 24px;
+}
+
+/* App Title */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Message Text */
+#message {
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+/* Counter Number */
+.counter {
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* Step Selector */
+select {
+  padding: 14px 18px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 28px;
+  outline: none;
+}
+
+/* Buttons Wrapper */
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+/* Icon Buttons */
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-btn img {
+  width: 72px;
+  height: 72px;
+}
+
+.icon-btn:active {
+  transform: scale(0.92);
+}
+
+/* Reset Button */
+.reset-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 18px 26px;
+  font-size: 18px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.reset-btn:active {
+  transform: scale(0.95);
+}
+
+/* Daily History Section */
+h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+#history {
+  list-style: none;
+}
+
+#history li {
+  font-size: 18px;
+  opacity: 0.85;
+  margin: 8px 0;
+}
+
+/* Credits (optional) */
+.credits {
+  margin-top: 18px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* Mobile Optimization */
+@media (max-width: 480px) {
+  .counter {
+    font-size: 72px;
+  }
+
+  .icon-btn img {
+    width: 64px;
+    height: 64px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
